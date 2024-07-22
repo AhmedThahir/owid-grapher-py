@@ -416,10 +416,6 @@ def generate_html(config: Dict[str, Any]) -> str:
       href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i|Playfair+Display:400,700&amp;display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="./common.css"
-    />
     <link rel="stylesheet" href="./owid.css" />
     <!-- <meta property="og:image:width" content="850" /> -->
     <!-- <meta property="og:image:height" content="600" /> -->
@@ -436,7 +432,6 @@ def generate_html(config: Dict[str, Any]) -> str:
     </main>
       <div class="site-tools"></div>
       <script src="https://polyfill.io/v3/polyfill.min.js?features=es6,fetch,URL,IntersectionObserver,IntersectionObserverEntry"></script>
-      <script type="module" src="./common.mjs"></script>
       <script type="module" src="./owid.mjs"></script>
       <script type="module">
         var jsonConfig = {json.dumps(config)};

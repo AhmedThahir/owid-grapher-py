@@ -154,6 +154,4 @@ Auto-generate more types of notebooks correctly
 ## Dependencies
 
 - https://ourworldindata.org/assets/owid.css
-- https://ourworldindata.org/assets/common.css
 - https://ourworldindata.org/assets/owid.mjs
-- https://ourworldindata.org/assets/common.mjs
